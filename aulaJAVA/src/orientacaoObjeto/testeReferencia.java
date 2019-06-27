@@ -8,12 +8,12 @@ public class testeReferencia {
 		
 		// conta c1 adicionando atributos
 		c1.numero = 001;
-		c1.titular = "dann";
+		//c1.titular = "dann";
 		c1.saldo = 1000.50;
 		
 		// conta c2 adicionando atributos
 		c2.numero = 002;
-		c2.titular = "carol";
+	//	c2.titular = "carol";
 		c2.saldo = 1000.50;
 		
 		c1.transfere(c2, 1500);
@@ -23,6 +23,10 @@ public class testeReferencia {
 		
 		
 
+		Conta minhaConta = new Conta();
+		Cliente c = new Cliente();
+		
+		minhaConta.titular = c;
 	}
 
 }

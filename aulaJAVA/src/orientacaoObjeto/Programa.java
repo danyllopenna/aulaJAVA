@@ -8,7 +8,7 @@ public class Programa {
 		
 		minhaConta = new Conta();
 		
-		minhaConta.titular = "dann";
+	//	minhaConta.titular = "dann";
 		minhaConta.saldo = 1000.0;
 		
 		System.out.println("saldo atual : "+minhaConta.saldo);

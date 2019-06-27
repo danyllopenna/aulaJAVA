@@ -4,7 +4,7 @@ public class Conta {
 	
 	// declaração de atributos
 	int numero;
-	String titular;
+	Cliente titular = new Cliente(); //toda vez que chamar um new conta tera um novo cliente
 	double saldo;
 	double salario;
 	
